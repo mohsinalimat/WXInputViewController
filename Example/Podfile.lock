@@ -1,0 +1,16 @@
+PODS:
+  - WXInputViewController (0.0.1)
+
+DEPENDENCIES:
+  - WXInputViewController (from `../`)
+
+EXTERNAL SOURCES:
+  WXInputViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WXInputViewController: 8bfbc3b1744c1b3ded5ab042e8caa7806504d6ec
+
+PODFILE CHECKSUM: f26c0e3acb94a9245da32e10a95375ac5da69b23
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,26 @@
+{
+  "name": "WXInputViewController",
+  "version": "0.0.1",
+  "license": {
+    "type": "MIT"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/alexiscn/WXInputViewController.git",
+    "tag": "0.0.1"
+  },
+  "summary": "WXInputViewController",
+  "homepage": "https://github.com/alexiscn/WXInputViewController",
+  "authors": {
+    "xushuifeng": "shuifengxu@gmail.com"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Sources/**/*.swift",
+  "resource_bundles": {
+    "Media": "Sources/Media.xcassets"
+  },
+  "swift_version": "5.0"
+}

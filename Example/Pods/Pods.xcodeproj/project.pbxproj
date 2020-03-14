@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ED9A95082485A037C3F26ABBC9DD285 /* WXInputViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E88ED7681B6B91C1BAAACB7D217363 /* WXInputViewController-dummy.m */; };
+		2366C6B80B6F65BFF79005B40DC047CF /* WXInputViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8170089FE0241BF60F41A9122D425E /* WXInputViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2696C8D8FF0D82D667153A6A9A656487 /* WXInputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C8BF375A499C62C52DCF57039267F /* WXInputTextView.swift */; };
+		6EF164442D809FFB82BC91CE57439A43 /* WXInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B8D0E6F0F42A1CA1AAEF0EA9F7E476 /* WXInputBar.swift */; };
+		93EB1F7BD59DAB8553740AC0EE9509B8 /* Media.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A997988AAC5CEEC0D17A6D407D4AED2C /* Media.bundle */; };
+		98EBEA6E078612F7389D9F97C7380F2F /* Pods-ChatApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80C1B6ADE843AA46135CE2255028F887 /* Pods-ChatApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1F9D66A28C7190C113966017AD596CB /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D1CD475F5214159DD79095F6D89C0C8 /* Media.xcassets */; };
+		D99F9ADA1D9720D6BF2DBED0B78FB667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E354B39F04B98F82B6F50231CEA69992 /* WXInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF83613171D9E2F497C7CB2EDE4DFBA /* WXInputViewController.swift */; };
+		E41F77BCFAD5D2B3ABEEE8C0DB83BC12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EAD272418EB9A8E247FB3322F86D1494 /* Pods-ChatApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF011A981761287B3276BCBA6985C2BB /* Pods-ChatApp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B241E582C973E4897A658363D12BB873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D22AA70A1A76BE23D0D8AC02A3EDCACE;
+			remoteInfo = WXInputViewController;
+		};
+		E23C93F3A287837F9D25B2CFB6A1577D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62A8721C271F99A80861D0E9BCE4EFFA;
+			remoteInfo = "WXInputViewController-Media";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1462BF16E6CAA61A9456F0640D2C73B1 /* WXInputViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXInputViewController.release.xcconfig; sourceTree = "<group>"; };
+		173610FAE065ED8BFEC6802DE2E519EE /* WXInputViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WXInputViewController.modulemap; sourceTree = "<group>"; };
+		2115BE9415A787C19A148FD2C6CDE3EE /* Pods-ChatApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatApp-Info.plist"; sourceTree = "<group>"; };
+		2DD5A73F61A4B30CC8C8B6F60F0BF874 /* WXInputViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WXInputViewController.framework; path = WXInputViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		478C79F53D003F0862F5235CEE06EC05 /* Pods-ChatApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatApp.modulemap"; sourceTree = "<group>"; };
+		492C8BF375A499C62C52DCF57039267F /* WXInputTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WXInputTextView.swift; path = Sources/WXInputTextView.swift; sourceTree = "<group>"; };
+		4B39561C5A48CAD5E0CA087F2ECE002F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4EF843C7E2D58B375BB897F1B2C93ED9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		50E88ED7681B6B91C1BAAACB7D217363 /* WXInputViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXInputViewController-dummy.m"; sourceTree = "<group>"; };
+		699CF49FFF827420483397C564092F3D /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
+		6AF83613171D9E2F497C7CB2EDE4DFBA /* WXInputViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WXInputViewController.swift; path = Sources/WXInputViewController.swift; sourceTree = "<group>"; };
+		6B46E257FE9DD3D4BC363BA455E9C593 /* Pods-ChatApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		80C1B6ADE843AA46135CE2255028F887 /* Pods-ChatApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatApp-umbrella.h"; sourceTree = "<group>"; };
+		8E92C28C1120B2B1A8351E7382BF7720 /* WXInputViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WXInputViewController-Info.plist"; sourceTree = "<group>"; };
+		9D1CD475F5214159DD79095F6D89C0C8 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Sources/Media.xcassets; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A997988AAC5CEEC0D17A6D407D4AED2C /* Media.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Media.bundle; path = "WXInputViewController-Media.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF011A981761287B3276BCBA6985C2BB /* Pods-ChatApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatApp-dummy.m"; sourceTree = "<group>"; };
+		B1B8D0E6F0F42A1CA1AAEF0EA9F7E476 /* WXInputBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WXInputBar.swift; path = Sources/WXInputBar.swift; sourceTree = "<group>"; };
+		C5ABAF63D10F5E127F096A2FF2FB8AB1 /* Pods-ChatApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9814EEC704CDA775A44F952AF962091 /* WXInputViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXInputViewController-prefix.pch"; sourceTree = "<group>"; };
+		CA383DC9AC4F3822F81F508E507AB2BF /* ResourceBundle-Media-WXInputViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Media-WXInputViewController-Info.plist"; sourceTree = "<group>"; };
+		CFBCCDCB380E404026347A7D8D491005 /* WXInputViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WXInputViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E1BA3C8216276587E4083E003FA83739 /* WXInputViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXInputViewController.debug.xcconfig; sourceTree = "<group>"; };
+		F1B8738E5AF68B43CE2044E35F9A9CDF /* Pods_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChatApp.framework; path = "Pods-ChatApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F495233B677AA4BB090B8C4290C85F09 /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FAD89D3FED2CDFE26ECA8380BD9B7A12 /* Pods-ChatApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatApp-frameworks.sh"; sourceTree = "<group>"; };
+		FC8170089FE0241BF60F41A9122D425E /* WXInputViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXInputViewController-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14FDD8BC9A77EB07C35E0A96C44EB849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41F77BCFAD5D2B3ABEEE8C0DB83BC12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8120F7058F9AE5C934550DF8A60F77E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923A7F66A0121B52E66E32A7B3CEC59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99F9ADA1D9720D6BF2DBED0B78FB667 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F55E32969A656DA54581746677FD875 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA383DC9AC4F3822F81F508E507AB2BF /* ResourceBundle-Media-WXInputViewController-Info.plist */,
+				173610FAE065ED8BFEC6802DE2E519EE /* WXInputViewController.modulemap */,
+				50E88ED7681B6B91C1BAAACB7D217363 /* WXInputViewController-dummy.m */,
+				8E92C28C1120B2B1A8351E7382BF7720 /* WXInputViewController-Info.plist */,
+				C9814EEC704CDA775A44F952AF962091 /* WXInputViewController-prefix.pch */,
+				FC8170089FE0241BF60F41A9122D425E /* WXInputViewController-umbrella.h */,
+				E1BA3C8216276587E4083E003FA83739 /* WXInputViewController.debug.xcconfig */,
+				1462BF16E6CAA61A9456F0640D2C73B1 /* WXInputViewController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WXInputViewController";
+			sourceTree = "<group>";
+		};
+		10E6196F9D858FE3D78D9313F3A07281 /* Pods-ChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				478C79F53D003F0862F5235CEE06EC05 /* Pods-ChatApp.modulemap */,
+				C5ABAF63D10F5E127F096A2FF2FB8AB1 /* Pods-ChatApp-acknowledgements.markdown */,
+				6B46E257FE9DD3D4BC363BA455E9C593 /* Pods-ChatApp-acknowledgements.plist */,
+				AF011A981761287B3276BCBA6985C2BB /* Pods-ChatApp-dummy.m */,
+				FAD89D3FED2CDFE26ECA8380BD9B7A12 /* Pods-ChatApp-frameworks.sh */,
+				2115BE9415A787C19A148FD2C6CDE3EE /* Pods-ChatApp-Info.plist */,
+				80C1B6ADE843AA46135CE2255028F887 /* Pods-ChatApp-umbrella.h */,
+				F495233B677AA4BB090B8C4290C85F09 /* Pods-ChatApp.debug.xcconfig */,
+				699CF49FFF827420483397C564092F3D /* Pods-ChatApp.release.xcconfig */,
+			);
+			name = "Pods-ChatApp";
+			path = "Target Support Files/Pods-ChatApp";
+			sourceTree = "<group>";
+		};
+		2932AA56865F6492A1C3201C89E99057 /* WXInputViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B1B8D0E6F0F42A1CA1AAEF0EA9F7E476 /* WXInputBar.swift */,
+				492C8BF375A499C62C52DCF57039267F /* WXInputTextView.swift */,
+				6AF83613171D9E2F497C7CB2EDE4DFBA /* WXInputViewController.swift */,
+				7D93078244D39BCC7BB80941C2022B71 /* Pod */,
+				FF8DAB3CDC9768F9F7451E0031BC3705 /* Resources */,
+				0F55E32969A656DA54581746677FD875 /* Support Files */,
+			);
+			name = WXInputViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		525CE41FFD366E5338C1501ADA418F09 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2932AA56865F6492A1C3201C89E99057 /* WXInputViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		630899F336F24C8EC5A42724ACD2FC54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A997988AAC5CEEC0D17A6D407D4AED2C /* Media.bundle */,
+				F1B8738E5AF68B43CE2044E35F9A9CDF /* Pods_ChatApp.framework */,
+				2DD5A73F61A4B30CC8C8B6F60F0BF874 /* WXInputViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64EC178325B076CFE489E2F91650B4B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10E6196F9D858FE3D78D9313F3A07281 /* Pods-ChatApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7D93078244D39BCC7BB80941C2022B71 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4B39561C5A48CAD5E0CA087F2ECE002F /* LICENSE */,
+				4EF843C7E2D58B375BB897F1B2C93ED9 /* README.md */,
+				CFBCCDCB380E404026347A7D8D491005 /* WXInputViewController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				525CE41FFD366E5338C1501ADA418F09 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				630899F336F24C8EC5A42724ACD2FC54 /* Products */,
+				64EC178325B076CFE489E2F91650B4B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF8DAB3CDC9768F9F7451E0031BC3705 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D1CD475F5214159DD79095F6D89C0C8 /* Media.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12D521AB4F2A53EA881851B2BDFBD35A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EBEA6E078612F7389D9F97C7380F2F /* Pods-ChatApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C6387CFF1C44AB73BE5E114DF66132 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2366C6B80B6F65BFF79005B40DC047CF /* WXInputViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E56AAC0A8B8C5BC2C6E42C547BDBFFE /* Pods-ChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD343FFA7710B96C0F737CFC2D2A977E /* Build configuration list for PBXNativeTarget "Pods-ChatApp" */;
+			buildPhases = (
+				12D521AB4F2A53EA881851B2BDFBD35A /* Headers */,
+				0A86D9C32FE88703175E49E464EEA1CB /* Sources */,
+				14FDD8BC9A77EB07C35E0A96C44EB849 /* Frameworks */,
+				C9532E0CD4F43C75737C7D59A8146ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				820826BDB6D0199C44DF96606D6472A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChatApp";
+			productName = "Pods-ChatApp";
+			productReference = F1B8738E5AF68B43CE2044E35F9A9CDF /* Pods_ChatApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62A8721C271F99A80861D0E9BCE4EFFA /* WXInputViewController-Media */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0484D13B06414A39908D2166D30DBFD1 /* Build configuration list for PBXNativeTarget "WXInputViewController-Media" */;
+			buildPhases = (
+				AF30596BCAFAF39B6A85380A3EEBF01F /* Sources */,
+				8120F7058F9AE5C934550DF8A60F77E9 /* Frameworks */,
+				CFC91B70D27F7F545ABACD1BA84F405E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WXInputViewController-Media";
+			productName = "WXInputViewController-Media";
+			productReference = A997988AAC5CEEC0D17A6D407D4AED2C /* Media.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D22AA70A1A76BE23D0D8AC02A3EDCACE /* WXInputViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 164FD90A20FE229A3E5F5D21589C782B /* Build configuration list for PBXNativeTarget "WXInputViewController" */;
+			buildPhases = (
+				A3C6387CFF1C44AB73BE5E114DF66132 /* Headers */,
+				1907EB0EFDD0AA1F9C1B5FCBBF05A720 /* Sources */,
+				923A7F66A0121B52E66E32A7B3CEC59D /* Frameworks */,
+				126E259589911D5BC13BA85C80A93EF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D711C3DD2332E00D364D6949E1D9399E /* PBXTargetDependency */,
+			);
+			name = WXInputViewController;
+			productName = WXInputViewController;
+			productReference = 2DD5A73F61A4B30CC8C8B6F60F0BF874 /* WXInputViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 630899F336F24C8EC5A42724ACD2FC54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E56AAC0A8B8C5BC2C6E42C547BDBFFE /* Pods-ChatApp */,
+				D22AA70A1A76BE23D0D8AC02A3EDCACE /* WXInputViewController */,
+				62A8721C271F99A80861D0E9BCE4EFFA /* WXInputViewController-Media */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		126E259589911D5BC13BA85C80A93EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93EB1F7BD59DAB8553740AC0EE9509B8 /* Media.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9532E0CD4F43C75737C7D59A8146ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC91B70D27F7F545ABACD1BA84F405E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F9D66A28C7190C113966017AD596CB /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A86D9C32FE88703175E49E464EEA1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD272418EB9A8E247FB3322F86D1494 /* Pods-ChatApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1907EB0EFDD0AA1F9C1B5FCBBF05A720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF164442D809FFB82BC91CE57439A43 /* WXInputBar.swift in Sources */,
+				2696C8D8FF0D82D667153A6A9A656487 /* WXInputTextView.swift in Sources */,
+				1ED9A95082485A037C3F26ABBC9DD285 /* WXInputViewController-dummy.m in Sources */,
+				E354B39F04B98F82B6F50231CEA69992 /* WXInputViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF30596BCAFAF39B6A85380A3EEBF01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		820826BDB6D0199C44DF96606D6472A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WXInputViewController;
+			target = D22AA70A1A76BE23D0D8AC02A3EDCACE /* WXInputViewController */;
+			targetProxy = B241E582C973E4897A658363D12BB873 /* PBXContainerItemProxy */;
+		};
+		D711C3DD2332E00D364D6949E1D9399E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WXInputViewController-Media";
+			target = 62A8721C271F99A80861D0E9BCE4EFFA /* WXInputViewController-Media */;
+			targetProxy = E23C93F3A287837F9D25B2CFB6A1577D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		586CC2BB40ED0B35C101506565B7C563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BA3C8216276587E4083E003FA83739 /* WXInputViewController.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WXInputViewController/WXInputViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WXInputViewController/WXInputViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WXInputViewController/WXInputViewController.modulemap";
+				PRODUCT_MODULE_NAME = WXInputViewController;
+				PRODUCT_NAME = WXInputViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DF2F977FF79CE39DC224BECE38E2CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1462BF16E6CAA61A9456F0640D2C73B1 /* WXInputViewController.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WXInputViewController/WXInputViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WXInputViewController/WXInputViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WXInputViewController/WXInputViewController.modulemap";
+				PRODUCT_MODULE_NAME = WXInputViewController;
+				PRODUCT_NAME = WXInputViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		656A78955491032240C33FDDDCBBD828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699CF49FFF827420483397C564092F3D /* Pods-ChatApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatApp/Pods-ChatApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatApp/Pods-ChatApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B1A2A150800B8516AEF5E50C8C2A183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F495233B677AA4BB090B8C4290C85F09 /* Pods-ChatApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatApp/Pods-ChatApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatApp/Pods-ChatApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE738757D800E45FDEB2D316421FEFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1462BF16E6CAA61A9456F0640D2C73B1 /* WXInputViewController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WXInputViewController";
+				IBSC_MODULE = WXInputViewController;
+				INFOPLIST_FILE = "Target Support Files/WXInputViewController/ResourceBundle-Media-WXInputViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = Media;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DCE9518FBF2D1D9D2D37E9CE12E3A095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BA3C8216276587E4083E003FA83739 /* WXInputViewController.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WXInputViewController";
+				IBSC_MODULE = WXInputViewController;
+				INFOPLIST_FILE = "Target Support Files/WXInputViewController/ResourceBundle-Media-WXInputViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = Media;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0484D13B06414A39908D2166D30DBFD1 /* Build configuration list for PBXNativeTarget "WXInputViewController-Media" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE9518FBF2D1D9D2D37E9CE12E3A095 /* Debug */,
+				AE738757D800E45FDEB2D316421FEFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		164FD90A20FE229A3E5F5D21589C782B /* Build configuration list for PBXNativeTarget "WXInputViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586CC2BB40ED0B35C101506565B7C563 /* Debug */,
+				5DF2F977FF79CE39DC224BECE38E2CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD343FFA7710B96C0F737CFC2D2A977E /* Build configuration list for PBXNativeTarget "Pods-ChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1A2A150800B8516AEF5E50C8C2A183 /* Debug */,
+				656A78955491032240C33FDDDCBBD828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
